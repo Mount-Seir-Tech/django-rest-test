@@ -147,3 +147,15 @@ http http://127.0.0.1:8000/api/v1/movies/?title="AntMan"&year=2020 "Authorizatio
 http http://127.0.0.1:8000/api/v1/movies/?year__gt=2019&year__lt=2022&genre="Action" "Authorization: Bearer {YOUR_TOKEN}"
 ```
 
+
+## Tasks to demonstrate Django Knowledge
+
+### 1. Move SECRET_KEY to an env.
+
+### 2. Add an about field for Movie.
+As a user I want to see a brief description about the movie I am looking at when I drill down to the detail view.
+
+### 3. Add a new Model for Director
+Add a model for Director which should have id, name, info, created_at, and updated_at fields.  Change movies to have a foreign key to point to the Director of the movie.
+
+
