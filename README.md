@@ -158,4 +158,8 @@ As a user I want to see a brief description about the movie I am looking at when
 ### 3. Add a new Model for Director
 Add a model for Director which should have id, name, info, created_at, and updated_at fields.  Change movies to have a foreign key to point to the Director of the movie.
 
-
+### 4. Add a new filter for director name
+Using the Director model added in task 3, implement a new filter allowing movies to be filtered by director name:
+```
+http http://127.0.0.1:8000/api/v1/movies/?director__name="name" "Authorization: Bearer {YOUR_TOKEN}"
+```
