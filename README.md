@@ -150,7 +150,7 @@ http http://127.0.0.1:8000/api/v1/movies/?year__gt=2019&year__lt=2022&genre="Act
 
 ## Tasks to demonstrate Django Knowledge
 
-### 1. Move SECRET_KEY to an env.
+### 1. Move SECRET_KEY to an environment variable.
 
 ### 2. Add an about field for Movie.
 As a user I want to see a brief description about the movie I am looking at when I drill down to the detail view.
